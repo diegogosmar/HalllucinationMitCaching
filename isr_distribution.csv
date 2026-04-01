@@ -1,0 +1,4 @@
+isr_category,count,percentage
+Low HRS (< 0.2),310,100.0
+Medium HRS (0.2-0.5),0,0.0
+High HRS (≥ 0.5),0,0.0

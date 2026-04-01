@@ -1,0 +1,2 @@
+total_prompts,policy_violations,policy_violation_rate,mean_hrs,median_hrs,low_hrs_count,low_hrs_percentage,high_hrs_count,high_hrs_percentage
+310,306,98.70967741935483,0.02612903225806452,0.0,310,100.0,0,0.0
