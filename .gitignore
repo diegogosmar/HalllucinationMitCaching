@@ -19,6 +19,7 @@ cache_statistics.csv
 __pycache__/
 *.py[cod]
 .mplconfig/
+.cache/
 .venv/
 venv/
 env/
