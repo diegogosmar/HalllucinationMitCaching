@@ -38,32 +38,5 @@ env/
 *.fdb_latexmk
 *.fls
 
-# --- Paper folder: legacy injection experiment & duplicates ---
-NL_Hallucination_Paper/NL_agentic_pinjection_300_OFP_Ollama.ipynb
-NL_Hallucination_Paper/Prompts/
-NL_Hallucination_Paper/results_complete.csv
-NL_Hallucination_Paper/summary_statistics.csv
-NL_Hallucination_Paper/isr_distribution.csv
-NL_Hallucination_Paper/cache_statistics.csv
-NL_Hallucination_Paper/.mplconfig/
-NL_Hallucination_Paper/.cache/
-NL_Hallucination_Paper/.$*
-NL_Hallucination_Paper/*.pdf
-!NL_Hallucination_Paper/orcid.pdf
-NL_Hallucination_Paper/texput.log
-
-# Legacy / unused figures in paper dir (current paper uses repo-root PNGs + listed assets)
-NL_Hallucination_Paper/Distribution_*.png
-NL_Hallucination_Paper/Mean_*.png
-NL_Hallucination_Paper/Number_*.png
-NL_Hallucination_Paper/Progressive_*.png
-NL_Hallucination_Paper/ablation_comparison.png
-NL_Hallucination_Paper/cache_performance.png
-NL_Hallucination_Paper/cms_agents_old.png
-NL_Hallucination_Paper/defense_effectiveness.png
-NL_Hallucination_Paper/fig*.png
-NL_Hallucination_Paper/isr_progression.png.png
-NL_Hallucination_Paper/kpi_*.png
-NL_Hallucination_Paper/llm_*.png
-NL_Hallucination_Paper/semantic_cache_comparison.png
-NL_Hallucination_Paper/ofp_agents_old.png
+# --- LaTeX paper (entire directory kept private; not published on GitHub) ---
+NL_Hallucination_Paper/
