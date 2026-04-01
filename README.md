@@ -2,8 +2,6 @@
 
 Research code and materials for a multi-agent LLM pipeline that targets **hallucination risk** (HRS and related KPIs), **nested learning** with per-agent Continuum Memory Systems (MTM/LTM), and **semantic caching** (cosine similarity threshold τ = 0.87) to cut redundant inference.
 
-Public repository: [github.com/diegogosmar/HalllucinationMitCaching](https://github.com/diegogosmar/HalllucinationMitCaching).
-
 ## What is included
 
 | Item | Description |
