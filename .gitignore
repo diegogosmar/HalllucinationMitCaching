@@ -2,6 +2,7 @@
 NL_agentic_hallucination_300_embed.ipynb
 NL_agentic_hallucination_300_embed.ipynb.bak_before_stream_fix
 NL_agentic_hallucination_300_new.ipynb
+NL_agentic_hallucination_310_5kpi.ipynb
 
 # --- Benchmark corpus (prompts); obtain separately or from authors ---
 hallubench_310_v2.csv
@@ -12,6 +13,14 @@ pipeline_results*.csv
 results_complete.csv
 pipeline.log
 cache_statistics.csv
+
+# --- Secrets / local env (file .env non coperto da "env/") ---
+.env
+.env.*
+!.env.example
+*.pem
+id_rsa
+id_ed25519
 
 # --- Jupyter ---
 .ipynb_checkpoints/
