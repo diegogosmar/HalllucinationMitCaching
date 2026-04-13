@@ -8,6 +8,7 @@ This folder contains rewritten model definitions for a hallucination-mitigation 
 - `Modelfile.2nd`: Second-level hallucination reviewer
 - `Modelfile.3rd`: Third-level final factuality enforcer
 - `Modelfile.4th`: KPI evaluator for hallucination mitigation
+- `Modelfile_1stagent_hallu_v3`: **Optional / ablation** — first agent tuned to be overconfident and detail-inventing (high temperature). Use only when you intentionally stress the downstream guardrails; not the default front-end guard.
 
 ## Create models
 
@@ -18,6 +19,8 @@ ollama create 1stagent_hallu_v2 -f Modelfile.1st
 ollama create 2ndagent_hallu_v2 -f Modelfile.2nd
 ollama create 3rdagent_hallu_v2 -f Modelfile.3rd
 ollama create 4thagent_hallu_v2 -f Modelfile.4th
+# optional stress first agent:
+ollama create 1stagent_hallu_v3 -f Modelfile_1stagent_hallu_v3
 ```
 
 ## Quick smoke tests
