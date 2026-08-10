@@ -1,52 +1,8 @@
-# --- Notebook with embedded benchmark prompts (not for public repo) ---
-NL_agentic_hallucination_300_embed.ipynb
-NL_agentic_hallucination_300_embed.ipynb.bak_before_stream_fix
-NL_agentic_hallucination_300_new.ipynb
-NL_agentic_hallucination_310_5kpi.ipynb
-
-# --- Benchmark corpus (prompts); obtain separately or from authors ---
-hallubench_310_v2.csv
-hallubench_310_v2.jsonl
-
-# --- Run outputs containing prompts and full model responses ---
-pipeline_results*.csv
-results_complete.csv
-pipeline.log
-cache_statistics.csv
-
-# --- Secrets / local env (file .env non coperto da "env/") ---
-.env
-.env.*
-!.env.example
-*.pem
-id_rsa
-id_ed25519
-
-# --- Jupyter ---
-.ipynb_checkpoints/
-
-# --- Python / tooling ---
-__pycache__/
-*.py[cod]
-.mplconfig/
-.cache/
-.venv/
-venv/
-env/
-
-# --- OS ---
 .DS_Store
-
-# --- LaTeX build artifacts ---
+__MACOSX/
+*.pyc
+__pycache__/
+.venv/
 *.aux
-*.bbl
-*.blg
 *.log
-*.out
-*.toc
-*.synctex.gz
-*.fdb_latexmk
-*.fls
-
-# --- LaTeX paper (entire directory kept private; not published on GitHub) ---
-NL_Hallucination_Paper/
+!v2/data/judge_gemma4_12b_orig_930_failures.log

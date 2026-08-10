@@ -1,0 +1,5 @@
+regen_figures.py in this repository was written against the full per-prompt file,
+which includes response text. The released kpi_per_prompt.csv omits that text, so the
+script needs the column names remapped before it will run. Panel (c) of the
+distribution figures, which splits by cache hit, works unchanged; the response-length
+diagnostics do not.
