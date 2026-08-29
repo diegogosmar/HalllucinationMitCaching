@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-judge_v2.py - cross-family KPI re-scoring for the EMNLP hallucination pipeline.
+judge_v2.py - cross-family KPI re-scoring for the hallucination pipeline.
 
 Rescores the ALREADY GENERATED responses in pipeline_results_with_NL.csv.
 Nothing is regenerated: the three agents, the 310 prompts, tau=0.87, the CMS
